@@ -808,6 +808,9 @@ footer {
    justify-content: space-between;
 }
 
+.foot-page-items a:hover{
+   color: #FFA63A;
+}
 @media (max-width: 750px) {
 
    .nav-items {
