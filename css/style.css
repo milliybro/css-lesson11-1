@@ -26,7 +26,7 @@ html {
    height: 50px;
    z-index: -1;
    background-color: #FFA63A;
-   animation: bgcolor infinite 1.5s;
+   animation: bgcolor infinite 1.2s;
    transition: 0.5s;
 }
 @keyframes bgcolor{
