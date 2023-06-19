@@ -82,6 +82,7 @@ nav {
    display: flex;
    align-items: center;
    gap: 10.58px;
+   cursor: pointer;
 }
 
 .nav-logo p {
