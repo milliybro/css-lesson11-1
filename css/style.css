@@ -227,7 +227,9 @@ nav {
    z-index: -1;
    opacity: 0;
    transition: 1s;
-   top: 100px;
+   top: 10px;
+   background-color: #08546C;
+   border: 2px solid #fff;
 }
 
 .dd-link>a {
