@@ -231,12 +231,27 @@ nav {
    background-color: #08546C;
    border: 2px solid #fff;
 }
-
+.dropdown-cont-port{
+   position: absolute;
+   list-style-type: none;
+   background-color: #696969;
+   z-index: -1;
+   opacity: 0;
+   transition: 1s;
+   top: 10px;
+   background-color: #08546C;
+   border: 2px solid #fff;
+}
 .dd-link>a {
    color: white
 }
 
 .dropdown:hover .dropdown-content {
+   opacity: 1;
+   z-index: -1;
+   top: 20px;
+}
+.dropdown:hover .dropdown-cont-port {
    opacity: 1;
    z-index: -1;
    top: 20px;
