@@ -619,7 +619,7 @@ nav {
 .portfolio-trans {
    display: flex;
    align-items: center;
-   gap: 15px;
+   gap: 20px;
 }
 
 .portfolio-trans a {
@@ -630,8 +630,12 @@ nav {
    text-decoration: none;
 }
 
+
+.portfolio-trans:hover,
 .portfolio-trans a:hover {
    color: #FFA63A;
+   transform: translateX(15px);
+   
 }
 
 .card-img {
